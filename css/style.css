@@ -1,0 +1,50 @@
+html {
+    --primary-blue: #0065FC;
+    --secondary-blue: #DEEBFF;
+    --bg-content: #F2F2F2;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    .container {
+        width: auto;
+        margin: 0 15%;
+    }
+
+    .header > nav > ul > li {
+        display: inline;
+        padding: 15px;
+        border-bottom: 2px;
+        border-color: var(--primary-blue);
+    }
+}
+
+/* Tablette */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: auto;
+        margin: 0;
+    }
+}
+
+/* Smartphone */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .container {
+        width: auto;
+        margin: 0;
+    }
+}
