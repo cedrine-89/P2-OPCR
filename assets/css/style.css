@@ -1,0 +1,169 @@
+html {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    font: inherit;
+    --primary-blue: #0065FC;
+    --secondary-blue: #DEEBFF;
+    --bg-content: #F2F2F2;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.menu a {
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+.main {
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.container {
+    width: auto;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.filtres {
+    margin: 2px 0;
+    display: flex;
+    vertical-align: middle;
+}
+
+.filtres > p,
+.filtres > button {
+    font-weight: bold;
+}
+
+.filtres > button {
+    position: relative;
+    margin: 5px 10px;
+    padding: 0 10px 0 40px;
+    background-color: white;
+    border: 3px var(--bg-content) solid;
+    border-radius: 50px;
+}
+
+.filtres > button > i {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    padding: 20px 10px;
+    background-color: var(--secondary-blue);
+    border-radius: 50%;
+}
+
+.information > p > i {
+    padding: 5px;
+    border: 2px var(--bg-content) solid;
+    border-radius: 50%;
+}
+
+.row-hebergement-populaire {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap: 20px;
+}
+
+.item-color {
+    color: var(--primary-blue);
+}
+
+/* CARD */
+
+.card {
+    padding: 5px;
+    background: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.1);
+}
+
+.card-img {
+    width: 225px;
+    border-radius: 20px;
+}
+
+.card-footer > p {
+    margin: 4px 2px;
+}
+
+/* END CARD */
+/* HEBERGEMENT */
+
+.row-hebergement,
+.row-populaire {
+    padding: 20px;
+    border-radius: 20px;
+    background: var(--bg-content);
+}
+
+.hebergement {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* END HEBERGEMENT */
+
+/* MARGIN */
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+/* END MARGIN */
+
+/* Media Query */
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    .container {
+        width: auto;
+        margin: 0 15%;
+    }
+
+    .header > nav > ul > li {
+        padding: 20px 10px;
+        display: inline-block;
+    }
+
+    .active,
+    .header > nav > ul > li:hover {
+        -webkit-box-shadow: inset 0 9px 0 -2px var(--primary-blue);
+        -moz-box-shadow: inset 0 9px 0 -2px var(--primary-blue);
+        box-shadow: inset 0 9px 0 -2px var(--primary-blue);
+    }
+}
+
+/* Tablette */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Smartphone */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+}
