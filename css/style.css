@@ -50,7 +50,6 @@ h1 {
 }
 
 /* END HEADER */
-
 /* FILTRE */
 
 .filtres {
@@ -94,19 +93,6 @@ h1 {
 }
 
 /* END FILTRE */
-
-/* STAR */
-
-.star-active {
-    color: var(--primary-blue);
-}
-
-.star-inactive {
-    color: gray;
-}
-
-/* END STAR */
-
 /* CARD */
 
 .card {
@@ -137,7 +123,6 @@ h1 {
 }
 
 /* END CARD */
-
 /* HEBERGEMENT */
 
 .row-hebergement,
@@ -165,7 +150,6 @@ h1 {
 }
 
 /* END HEBERGEMENT */
-
 /* LINK VIEW HEBERGEMENT */
 
 .more {
@@ -175,7 +159,6 @@ h1 {
 }
 
 /* END LINK VIEW HEBERGEMENT */
-
 /* POPULAIRE */
 
 .populaire {
@@ -185,7 +168,6 @@ h1 {
 }
 
 /* END POPULAIRE */
-
 /* RATE */
 
 .rate {
@@ -197,7 +179,17 @@ h1 {
 }
 
 /* END RATE */
+/* STAR */
 
+.star-active {
+    color: var(--primary-blue);
+}
+
+.star-inactive {
+    color: gray;
+}
+
+/* END STAR */
 /* TRIM IMAGE */
 
 .trim-v {
@@ -208,12 +200,11 @@ h1 {
 .trim-h {
     max-width:150px;
     max-height:150px;
-    overflow: hidden;
     border-radius: 20px 0 0 20px;
+    overflow: hidden;
 }
 
 /* END TRIM IMAGE */
-
 /* MARGIN */
 
 .mb-20 {
@@ -229,7 +220,6 @@ h1 {
 }
 
 /* END MARGIN */
-
 /* FOOTER */
 
 .footer {
