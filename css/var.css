@@ -1,0 +1,8 @@
+html {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    --primary-blue: #0065FC;
+    --secondary-blue: #DEEBFF;
+    --bg-content: #F2F2F2;
+}

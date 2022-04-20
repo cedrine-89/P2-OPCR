@@ -1,0 +1,118 @@
+/* grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-gap: 40px;
+}
+
+.grid > div {
+    border-radius: 10px;
+}
+
+.primary {
+    order: 1;
+}
+
+.relative {
+    position: relative;
+}
+
+.bg-hebergements,
+.bg-populaires {
+    background: var(--bg-content);
+}
+
+/* grid-hebergements */
+
+.grid-hebergements {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.grid-hebergements header,
+.grid-populaires header {
+    grid-column: 1/-1;
+}
+
+/* END grid-hebergements */
+/* grid-populaires */
+
+.grid-populaires {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+}
+
+.grid-populaires div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* END grid-populaires */
+/* END grid */
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .grid {
+        grid-template-columns: 7fr 3fr;
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1199px) {
+    .grid {
+        grid-template-columns: 6fr 4fr;
+        grid-gap: 20px;
+    }
+    .grid-hebergements {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .grid-populaires {
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .primary {
+        order: -1;
+    }
+    .grid-hebergements {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .grid-populaires {
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 599px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+    .grid div {
+        border-radius: 0;
+    }
+    .primary {
+        order: -1;
+    }
+    .grid-hebergements {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+    .grid-hebergements header h2 {
+        margin-bottom: 20px;
+    }
+    .grid-populaires {
+        grid-gap: 10px;
+    }
+    .bg-hebergements {
+        background: #ffffff;
+    }
+}

@@ -1,0 +1,149 @@
+/* ACTIVITY */
+
+.activity {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+    column-gap: 2rem;
+    margin: 2rem 0;
+}
+
+.activity h2 {
+    grid-column: 1 / -1;
+}
+
+.activity a {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.activity h3 {
+    color: black;
+    margin: 1.2rem 1.5rem;
+}
+
+.activityCont {
+    position: relative;
+    flex: 1;
+}
+
+.activity img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.activity-link-1 {
+    grid-row: 2/7;
+    grid-column: 1/2;
+}
+
+.activity-link-2 {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+
+.activity-link-3 {
+    grid-column: 3/4;
+    grid-row: 2/7;
+}
+
+.activity-link-4 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.activity-link-5 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+
+.activity-link-6 {
+    grid-column: 4/5;
+    grid-row: 4/7;
+}
+
+/* Tablette */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    .activity {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 12rem 12rem 12rem;
+        row-gap: 1rem;
+        column-gap: 1rem;
+        margin: 1rem 0;
+    }
+    .activity h2 {
+        grid-column: 1/-1;
+    }
+    .activity-link-1 {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .activity-link-2 {
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .activity-link-3 {
+        grid-row: 3;
+        grid-column: 1;
+    }
+    .activity-link-4 {
+        grid-row: 3;
+        grid-column: 2;
+    }
+    .activity-link-5 {
+        grid-row: 4;
+        grid-column: 1;
+    }
+    .activity-link-6 {
+        grid-row: 4;
+        grid-column: 2;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 599px) {
+    .activity {
+        grid-template-rows: auto repeat(6, 14rem);
+        row-gap: 10px;
+        margin: 1rem 0;
+    }
+    .activity h2 {
+        grid-row: 1;
+        grid-column: 1/-1;
+    }
+    .activity-link-1 {
+        height: 200px;
+        grid-row: 2;
+        grid-column: 1/-1;
+    }
+    .activity-link-2 {
+        height: 200px;
+        grid-row: 3;
+        grid-column: 1/-1;
+    }
+    .activity-link-3 {
+        height: 200px;
+        grid-row: 4;
+        grid-column: 1/-1;
+    }
+    .activity-link-4 {
+        height: 200px;
+        grid-row: 5;
+        grid-column: 1/-1;
+    }
+    .activity-link-5 {
+        height: 200px;
+        grid-row: 6;
+        grid-column: 1/-1;
+    }
+    .activity-link-6 {
+        height: 200px;
+        grid-row: 7;
+        grid-column: 1/-1;
+    }
+}

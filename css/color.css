@@ -1,0 +1,7 @@
+.color-primary {
+    color: var(--primary-blue);
+}
+
+.color-inactive {
+    color: #acacac;
+}
