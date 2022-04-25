@@ -1,13 +1,13 @@
-@import "var.css";
-@import "font.css";
-@import "color.css";
-@import "card.css";
-@import "content.css";
-@import "spacing.css";
-@import "header.css";
-@import "search.css";
-@import "activity.css";
-@import "footer.css";
+@import "./var.css";
+@import "./font.css";
+@import "./color.css";
+@import "./card.css";
+@import "./content.css";
+@import "./spacing.css";
+@import "./header.css";
+@import "./search.css";
+@import "./activity.css";
+@import "./footer.css";
 
 * {
     font-size: 15px;

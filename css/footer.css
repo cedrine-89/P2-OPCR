@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    background: var(--bg-content);
+    background: var(--bg-section-content);
 }
 
 .footer > div {

@@ -36,14 +36,14 @@
 }
 
 .active a {
-    color: var(--primary-blue);
+    color: var(--primary-color);
 }
 
 .active,
 nav ul li:hover {
-    -webkit-box-shadow: inset 0 4px 0 -2px var(--primary-blue);
-    -moz-box-shadow: inset 0 4px 0 -2px var(--primary-blue);
-    box-shadow: inset 0 4px 0 -2px var(--primary-blue);
+    -webkit-box-shadow: inset 0 4px 0 -2px var(--primary-color);
+    -moz-box-shadow: inset 0 4px 0 -2px var(--primary-color);
+    box-shadow: inset 0 4px 0 -2px var(--primary-color);
 }
 
 .slogan {
@@ -70,14 +70,14 @@ nav ul li:hover {
      }
     .active,
     nav ul li:hover {
-        -webkit-box-shadow: inset 0 -5px 0 -2px var(--primary-blue);
-        -moz-box-shadow: inset 0 -5px 0 -2px var(--primary-blue);
-        box-shadow: inset 0 -5px 0 -2px var(--primary-blue);
+        -webkit-box-shadow: inset 0 -5px 0 -2px var(--primary-color);
+        -moz-box-shadow: inset 0 -5px 0 -2px var(--primary-color);
+        box-shadow: inset 0 -5px 0 -2px var(--primary-color);
     }
     .inactive {
-        -webkit-box-shadow: inset 0 -5px 0 -2px var(--bg-content);
-        -moz-box-shadow: inset 0 -5px 0 -2px var(--bg-content);
-        box-shadow: inset 0 -5px 0 -2px var(--bg-content);
+        -webkit-box-shadow: inset 0 -5px 0 -2px var(--bg-section-content);
+        -moz-box-shadow: inset 0 -5px 0 -2px var(--bg-section-content);
+        box-shadow: inset 0 -5px 0 -2px var(--bg-section-content);
     }
     .slogan {
         color: #333333;

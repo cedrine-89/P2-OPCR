@@ -20,7 +20,7 @@
 
 .bg-hebergements,
 .bg-populaires {
-    background: var(--bg-content);
+    background: var(--bg-section-content);
 }
 
 /* grid-hebergements */
