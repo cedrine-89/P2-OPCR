@@ -2,17 +2,19 @@
 @import "./font.css";
 @import "./color.css";
 @import "./card.css";
-@import "./content.css";
 @import "./spacing.css";
 @import "./header.css";
 @import "./search.css";
 @import "./activity.css";
+@import "flex-hosting-popular.css";
 @import "./footer.css";
 
 * {
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 body {

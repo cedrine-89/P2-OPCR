@@ -110,7 +110,7 @@
     .activity {
         grid-template-rows: auto repeat(6, 14rem);
         row-gap: 10px;
-        margin: 1rem 0;
+        margin: 1rem 20px;
     }
     .activity h2 {
         grid-row: 1;

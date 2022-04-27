@@ -1,3 +1,15 @@
+.wrapper {
+    padding: 0 40px;
+}
+
+.p-hosting {
+    padding: 0 20px 0 0;
+}
+
+.p-popular {
+    padding: 0 0 0 20px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -14,25 +26,28 @@
     margin-top: 20px;
 }
 
-.mt-20-0-responsive {
-    margin-top: 0;
-}
-
 .mb-20 {
     margin-bottom: 20px;
 }
 
-.p-0-20-responsive {
-    padding: 0;
+.p-top-20 {
+    padding-top: 20px;
 }
 
-.p-40-20-responsive {
-    padding: 40px;
+@media screen and (min-width: 992px) and (max-width: 1250px) {
+    .wrapper {
+        padding: 0 30px;
+    }
 }
+
 
 /* Tablette */
 @media only screen and (min-width: 600px) and (max-width: 991px) {
-    .p-0-20-responsive {
+    .wrapper {
+        padding: 0 20px;
+    }
+    .p-hosting,
+    .p-popular {
         padding: 0;
     }
 }
@@ -42,13 +57,11 @@
     .mb-10 {
         margin-bottom: 10px;
     }
-    .p-40-20-responsive {
-        padding: 20px;
+    .wrapper {
+        padding: 0;
     }
-    .p-0-20-responsive {
-        padding: 20px;
-    }
-    .mt-20-0-responsive {
-        margin-top: 20px;
+    .p-hosting,
+    .p-popular {
+        padding: 0;
     }
 }
