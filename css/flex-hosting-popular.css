@@ -62,10 +62,13 @@
         flex-basis: 55%;
     }
     .flex-hosting-popular > div:last-child {
-        flex-basis: 45%;
+        flex-basis: 40%;
     }
     .w30 {
         width: 45%;
+    }
+    .bg-content {
+        padding: 0 10px;
     }
 }
 
