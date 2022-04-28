@@ -39,7 +39,6 @@
 
 .btn-form {
     color: white;
-    margin-left: -15px;
     padding: 15px;
     height: 45px;
     font-size: 10px;
@@ -192,6 +191,7 @@
     }
     .btn-form {
         border-radius: 15px;
+        margin-left: -15px;
     }
     .btn-text-toggle {
          display: none;
@@ -202,4 +202,5 @@
     .form {
         width: 100%;
     }
+
 }
