@@ -19,7 +19,7 @@
     margin-bottom: 20px;
 }
 
-.card-v figure {
+.card-v img {
     padding: 0;
     margin: 0;
 }
@@ -72,7 +72,7 @@
     color: black;
 }
 
-.card-h figure {
+.card-h img {
     position: relative;
     margin: 0;
     min-height: 100%;
@@ -88,9 +88,11 @@
 }
 
 .more {
+    color: black;
     flex-basis: 95%;
     font-weight: bold;
     font-size: 1.2em;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 799px) {
