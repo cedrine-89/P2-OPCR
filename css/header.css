@@ -55,7 +55,7 @@ nav ul li:hover {
 }
 
 /* Smartphone */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 768px) {
     .header {
         display: flex;
         flex-direction: column;

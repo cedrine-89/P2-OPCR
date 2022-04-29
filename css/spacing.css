@@ -42,7 +42,7 @@
 
 
 /* Tablette */
-@media only screen and (min-width: 600px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
     .wrapper {
         padding: 0 20px;
     }
@@ -53,7 +53,7 @@
 }
 
 /* Smartphone */
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media screen and (max-width: 768px) {
     .mb-10 {
         margin-bottom: 10px;
     }

@@ -167,7 +167,7 @@
 }
 
 /* Tablette */
-@media only screen and (min-width: 600px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
     .label-filters {
         display: block;
         margin: 0 15px 15px 0;
@@ -178,7 +178,7 @@
 }
 
 /* Smartphone */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 768px) {
     .label-filters {
         display: block;
         margin: 0 0 20px 0;

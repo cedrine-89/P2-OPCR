@@ -27,14 +27,14 @@
 }
 
 /* Tablette */
-@media only screen and (min-width: 600px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
     .footer {
         flex-wrap: nowrap;
     }
 }
 
 /* Smartphone */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 768px) {
     .footer {
         flex-wrap: wrap;
     }

@@ -69,7 +69,7 @@
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
     .flex-hosting-popular {
         flex-wrap: wrap;
     }
@@ -88,7 +88,7 @@
     }
 }
 
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media only screen and (max-width: 768px) {
     .flex-hosting-popular {
         flex-wrap: wrap;
     }
@@ -116,3 +116,4 @@
         width: 100%;
     }
 }
+
