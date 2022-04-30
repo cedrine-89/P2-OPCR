@@ -35,8 +35,12 @@
     text-decoration: none;
 }
 
-.active a {
+.header a:hover {
     color: var(--primary-color);
+}
+
+.active a {
+    color: black;
 }
 
 .inactive a {
